@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+/*
+* Header
+*/
 header {
     display: flex;
     align-items: center;
@@ -73,4 +76,22 @@ header > h1.logo {
         display: none;
     }
 
+}
+
+/*
+* Footer
+*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111827;
+    color: #FFFFFF;
+    height: 4rem;
 }
