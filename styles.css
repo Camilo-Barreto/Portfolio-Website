@@ -44,10 +44,33 @@ header > h1.logo {
     border-radius: 50px;
 }
 
+
+.navbarToggle {
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 .navItem {
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .selectedNav {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbarToggle {
+        display: block;
+        color: #fff;
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+
 }
