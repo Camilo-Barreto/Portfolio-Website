@@ -11,13 +11,14 @@ section#educatiionSection > h2 {
     height: fit-content;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 20px;
     border-radius: 50px;
 }
 
 
 .educationEntry {
     display: flex;
-    background-color: rgba(255, 0, 0, 0.2);
+    /* background-color: rgba(255, 0, 0, 0.2); */
     gap: 1rem;
     padding: 1.5rem;
     border-radius: 15px;
